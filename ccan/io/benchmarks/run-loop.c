@@ -1,5 +1,5 @@
 #include <ccan/io/io.h>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <sys/wait.h>
 #include <stdio.h>
 #include <string.h>

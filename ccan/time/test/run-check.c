@@ -1,5 +1,5 @@
 #define DEBUG
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <ccan/time/time.c>
 #include <ccan/tap/tap.h>
 #include <unistd.h>

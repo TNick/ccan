@@ -2,7 +2,7 @@
 #ifndef CCAN_IO_H
 #define CCAN_IO_H
 #include <ccan/typesafe_cb/typesafe_cb.h>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <stdbool.h>
 #include <unistd.h>
 #include "io_plan.h"

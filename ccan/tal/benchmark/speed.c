@@ -25,7 +25,7 @@
 #include <ccan/talloc/talloc.h>
 #include <ccan/tal/tal.h>
 #include <ccan/tal/str/str.h>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <ccan/err/err.h>
 #include <string.h>
 

@@ -22,7 +22,7 @@
 #include <ccan/str_talloc/str_talloc.h>
 #include <ccan/grab_file/grab_file.h>
 #include <ccan/talloc/talloc.h>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

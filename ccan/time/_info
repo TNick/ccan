@@ -11,7 +11,7 @@
  * License: BSD-MIT
  *
  * Example:
- *	#include <ccan/time/time.h>
+ *	#include <ccan/time/time_ccan.h>
  *	#include <stdlib.h>
  *	#include <stdio.h>
  *	#include <err.h>

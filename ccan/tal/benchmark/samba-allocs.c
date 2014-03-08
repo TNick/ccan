@@ -1,7 +1,7 @@
 /* Grab dump of Samba4 talloc tree to do benchmarks on it. */
 #include <ccan/talloc/talloc.h>
 #include <ccan/tal/tal.h>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <ccan/err/err.h>
 #include <ccan/str/str.h>
 #include <string.h>

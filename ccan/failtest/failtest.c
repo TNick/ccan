@@ -17,7 +17,7 @@
 #include <signal.h>
 #include <assert.h>
 #include <ccan/err/err.h>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <ccan/read_write_all/read_write_all.h>
 #include <ccan/failtest/failtest_proto.h>
 #include <ccan/build_assert/build_assert.h>

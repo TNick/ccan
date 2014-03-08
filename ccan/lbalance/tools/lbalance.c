@@ -1,6 +1,6 @@
 #include <ccan/lbalance/lbalance.h>
 #include <ccan/lbalance/lbalance.c>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <ccan/jmap/jmap_type.h>
 #include <stdio.h>
 #include <err.h>

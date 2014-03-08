@@ -1,7 +1,7 @@
 /* LGPL (v2.1 or any later version) - see LICENSE file for details */
 #ifndef CCAN_TIMER_H
 #define CCAN_TIMER_H
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <ccan/list/list.h>
 #include <stdint.h>
 

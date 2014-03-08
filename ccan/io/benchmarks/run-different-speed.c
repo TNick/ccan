@@ -1,7 +1,7 @@
 /* Simulate a server with connections of different speeds.  We count
  * how many connections complete in 10 seconds. */
 #include <ccan/io/io.h>
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <ccan/err/err.h>
 #include <sys/types.h>
 #include <sys/socket.h>

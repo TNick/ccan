@@ -1,4 +1,4 @@
-#include <ccan/time/time.h>
+#include <ccan/time/time_ccan.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>

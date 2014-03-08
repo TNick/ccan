@@ -13,7 +13,7 @@
  * Example:
  *	// Silly example which outputs strings until timers expire.
  *	#include <ccan/timer/timer.h>
- *	#include <ccan/time/time.h>
+ *	#include <ccan/time/time_ccan.h>
  *	#include <stdlib.h>
  *	#include <stdio.h>
  *
