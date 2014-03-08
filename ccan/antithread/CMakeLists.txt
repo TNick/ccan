@@ -8,3 +8,5 @@ set( CCAN_LIB_DEPENDS
 )
 
 ccan_helper_create_module("ccan_antithread" 1 0 0)
+
+add_subdirectory(alloc)
