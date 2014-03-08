@@ -538,7 +538,7 @@ static COLD void *huge_alloc(void *pool, unsigned long poolsize,
 	lp_bits = sp_bits + BITS_FROM_SMALL_TO_LARGE_PAGE;
 
 	/* Allocate tracking structure optimistically. */
-	ha = alloc_get(pool, poolsize, sizeof(*ha), ALIGNOF(*ha));
+    ha = alloc_get(pool, poolsize, sizeof(*ha), ALIGNOF(struct huge_alloc *));
 	if (!ha)
 		return NULL;
 
