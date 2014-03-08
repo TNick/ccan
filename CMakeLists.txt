@@ -20,13 +20,14 @@ set ( CCAN_INSTALL_HEADERS "include" CACHE FILEPATH "Install location for header
 
 # allow #include <ccan/MODULE/file.h>
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 if   (CMAKE_BUILD_TYPE STREQUAL "Debug")
     add_definitions( -DDEBUG=1 -D_DEBUG=1 )
 else (CMAKE_BUILD_TYPE STREQUAL "Debug")
     add_definitions( -DNDEBUG=1 -D_NDEBUG=1 )
 endif (CMAKE_BUILD_TYPE STREQUAL "Debug")
-
+add_definitions( -D_GNU_SOURCE )
 # ============================================================================
 
 
