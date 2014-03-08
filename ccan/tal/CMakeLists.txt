@@ -5,4 +5,9 @@ set( CCAN_LIB_DEPENDS
     ccan_take
 )
 
-ccan_helper_create_module("ccan_tal_str" 1 0 0)
+ccan_helper_create_module("ccan_tal" 1 0 0)
+
+add_subdirectory(str)
+add_subdirectory(link)
+add_subdirectory(path)
+add_subdirectory(talloc)
