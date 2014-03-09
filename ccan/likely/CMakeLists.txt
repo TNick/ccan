@@ -1,4 +1,4 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_str
     ccan_htable
     ccan_hash

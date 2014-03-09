@@ -1,8 +1,5 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_likely
-)
-
-set( CCAN_H_DEPENDS
     ccan_build_assert
 )
 

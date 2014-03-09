@@ -1,4 +1,4 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_tal
     ccan_tal_str
     ccan_str

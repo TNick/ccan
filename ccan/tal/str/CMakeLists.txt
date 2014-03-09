@@ -1,7 +1,7 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_str
-    ccan_tal
-    ccan_tal_talloc
+    # ccan_tal # circular dependency
+    # ccan_tal_talloc # circular dependency
     ccan_take
 )
 

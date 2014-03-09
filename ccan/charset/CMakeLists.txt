@@ -1,10 +1,7 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_antithread_alloc
-    # TODO: libm
-)
-
-set( CCAN_H_DEPENDS
     ccan_likely
 )
+    # TODO: libm
 
 ccan_helper_create_module("ccan_charset" 1 0 0)

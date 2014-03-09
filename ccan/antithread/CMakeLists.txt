@@ -1,4 +1,4 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_antithread_alloc
     ccan_err
     ccan_list

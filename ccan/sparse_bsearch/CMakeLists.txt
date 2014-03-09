@@ -1,4 +1,4 @@
-set( CCAN_H_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_typesafe_cb
     ccan_check_type
 )

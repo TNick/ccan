@@ -1,4 +1,4 @@
-set( CCAN_H_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     # TODO: only if defined(__i386__) || defined(__i386) || defined(__x86_64) \
     #	|| defined(_M_AMD64) || defined(__M_X64)
     ccan_build_assert

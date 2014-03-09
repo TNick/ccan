@@ -1,8 +1,5 @@
-set( CCAN_H_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_bytestring
-)
-
-set( CCAN_LIB_DEPENDS
     #ifdef TAL_USE_TALLOC
     ccan_tal_talloc
     #else

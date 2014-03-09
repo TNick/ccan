@@ -1,11 +1,8 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_ilog
     ccan_likely
     ccan_list
     ccan_time
-)
-
-set( CCAN_H_DEPENDS
     ccan_array_size
 )
 

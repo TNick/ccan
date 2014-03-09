@@ -1,9 +1,6 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_ogg_to_pcm
     # TODO: libvorbis vorbisfile portaudio
-)
-
-set( CCAN_H_DEPENDS
     ccan_likely
 )
 

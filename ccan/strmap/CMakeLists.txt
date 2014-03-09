@@ -1,9 +1,6 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_ilog
     ccan_str
-)
-
-set( CCAN_H_DEPENDS
     ccan_short_types
     ccan_tcon
     ccan_typesafe_cb

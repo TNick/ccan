@@ -1,14 +1,10 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_take
     # TODO: libs - talloc
 
-    ccan_tal
+    # ccan_tal # circular dependency
     ccan_tal_str
     ccan_str
-
-)
-
-set( CCAN_H_DEPENDS
     ccan_typesafe_cb
 )
 

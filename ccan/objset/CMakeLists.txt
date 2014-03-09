@@ -1,4 +1,4 @@
-set( CCAN_H_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_hash
     ccan_htable
     ccan_tcon

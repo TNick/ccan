@@ -1,4 +1,4 @@
-set( CCAN_H_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     # TODO: only if !HAVE_ERR_H
     ccan_compiler
 )

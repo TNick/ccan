@@ -1,8 +1,5 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_ptr_valid
-)
-
-set( CCAN_H_DEPENDS
     ccan_compiler
 )
 

@@ -1,13 +1,10 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_antithread_alloc
     ccan_err
     ccan_list
     ccan_noerr
     ccan_read_write_all
     ccan_talloc
-)
-
-set( CCAN_H_DEPENDS
     ccan_likely
     ccan_compiler
 )

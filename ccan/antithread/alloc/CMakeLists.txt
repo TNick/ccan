@@ -1,9 +1,6 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_ilog
     ccan_likely
-)
-
-set( CCAN_H_DEPENDS
     ccan_alignof
     ccan_build_assert
     ccan_compiler

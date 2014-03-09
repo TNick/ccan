@@ -1,9 +1,6 @@
-set( CCAN_LIB_DEPENDS
+set( CCAN_MOD_DEPENDENCIES
     ccan_tal
     ccan_list
-)
-
-set( CCAN_H_DEPENDS
     ccan_container_of
 )
 
