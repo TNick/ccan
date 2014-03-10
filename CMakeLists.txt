@@ -154,3 +154,4 @@ set( CCAN_MODS_ALL ${CCAN_MODS_NO_SRC} ${CCAN_MODS_WITH_SRC} )
 
 
 add_subdirectory( "ccan" )
+add_subdirectory( "junkcode" )

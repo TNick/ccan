@@ -29,7 +29,7 @@ void set_log_mode(int mode)
 	_log_current_mode = mode;
 }
 
-void get_log_mode()
+int get_log_mode()
 {
 	return _log_current_mode;
 }
